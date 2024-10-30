@@ -1,0 +1,18 @@
+# Backend
+apache-nifi
+kotlin
+spring
+ehcache
+
+# API
+fastapi
+graphene  # for GraphQL support
+
+# Frontend
+react
+node
+vite
+
+# Testing
+selenium
+
