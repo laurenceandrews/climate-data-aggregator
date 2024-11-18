@@ -173,3 +173,7 @@ yarn-error.log*
 selenium-logs/
 chromedriver.log
 geckodriver.log
+
+# Climate data cache files
+/cache/
+*.json
