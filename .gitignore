@@ -176,4 +176,3 @@ geckodriver.log
 
 # Climate data cache files
 /cache/
-*.json
