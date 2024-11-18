@@ -29,6 +29,7 @@ dependencies {
 
     // Kotlin standard library
     implementation("org.jetbrains.kotlin:kotlin-stdlib")
+    implementation("org.jetbrains.kotlin:kotlin-reflect") // Add this line
 
     // Spring Boot test support
     testImplementation("org.springframework.boot:spring-boot-starter-test")
@@ -38,6 +39,14 @@ dependencies {
 
     // JUnit Platform Launcher (optional if needed)
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
+
+    // For Kotlin test utilities
+    testImplementation("org.jetbrains.kotlin:kotlin-test")
+    
+    implementation("org.springframework.boot:spring-boot-starter-data-jpa")
+    implementation("org.xerial:sqlite-jdbc:3.43.0.0")
+    implementation("com.h2database:h2")
+    testImplementation("io.mockk:mockk:1.13.5")
 }
 
 // Apply a specific Java toolchain for consistent Java versioning
